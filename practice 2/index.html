@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0%;
+        }
+        .row{
+            
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+           .banking-grid{
+                display: grid;
+                grid-template-areas: 'header','main','footer';
+                height: 100vh;
+                grid-template-rows: 5rem 1fr 5rem;
+                
+           }
+           header{
+            grid-area: 'header';
+               background: linear-gradient(45deg,red,blue);
+               color: white;
+               font-family: Arial, Helvetica, sans-serif;
+               font-size: 30px;
+           }
+           main{
+            grid-area: 'main';
+            color: rgb(4, 4, 5);
+            background: linear-gradient(20deg,white,rgb(247, 7, 215));
+           }
+           footer{
+               grid-area: 'footer';
+               background: linear-gradient(45deg,red,blue);
+               color: white;
+               font-family: Arial, Helvetica, sans-serif; 
+           }
+    </style>
+</head>
+
+<body>
+    <section class="banking-grid">
+        <header class="row">AshokIt</header>
+        <main class="row">E-commerce Website Coming Soon</main>
+        <footer class="row">copywrite@ashokit.in</footer>
+    </section>
+
+</body>
+
+</html>
