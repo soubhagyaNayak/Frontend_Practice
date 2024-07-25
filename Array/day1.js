@@ -38,3 +38,47 @@ console.log(arr1);
 // console.log(arr6);
 
 
+// let arr8=[10,20,30,40,50,60];
+// arr8.splice(3,2,70);
+// console.log(arr8);
+
+//map function is basically used for  manipulate each and every element
+
+// console.log(
+//     [1,2,3,4].map((element,index)=>{
+//       return element*100;
+//     })
+// );
+
+// console.log(
+//     [1,2,3,4].map((element,index)=>{
+//       return [element];
+//     })
+// );
+
+// console.log(
+//     [1,2,3,4].map((element,index)=>{
+//       return [index,element];
+//     })
+// );
+
+// console.log(
+//     [1,2,3,4].map((element,index)=>{
+//       return element*100;
+//     })
+// );
+
+
+// console.log(
+//     [1,2,3,4].filter((element,index)=>{
+//       return element>=3;
+//     }).map((element,index)=>{
+//       return element*100;
+//     })
+// );
+
+console.log(
+    [1,2,3,4,5].map((element,index)=>{
+        return {[index]:element};
+    })
+)
