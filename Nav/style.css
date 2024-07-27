@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+nav{
+   background:linear-gradient(45deg,yellow,red);
+   padding: 30px;
+   text-align: center;
+   font-size: 25px;
+   
+}
+a{
+  margin: 20px 20px;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 10%;
+  padding: 10px;
+  background: linear-gradient(50deg,rgb(100, 9, 118),blue
+  );
+  color: azure;
+}
+a:hover{
+    border: 5px solid white;
+    font-size: larger;
+}

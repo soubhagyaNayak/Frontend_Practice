@@ -1,0 +1,17 @@
+article{
+    border: 2px solid red;
+    margin: 10px;
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+}
+h1{
+    background:green;
+    color:white; 
+    text-align: center;
+    border: 1px solid red;
+    padding: 15px;
+    border-radius: 30%;
+    width: 50%;
+    margin: 10px auto;
+}

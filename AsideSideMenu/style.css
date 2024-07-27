@@ -1,0 +1,32 @@
+aside{
+   height: 100vh;
+   background: linear-gradient(45deg,red,blue);
+   width: 15rem;
+   text-align: center;
+}
+body{
+    margin: 0px;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   border: 9px solid rgb(12, 12, 12);
+   margin-top: 30px;
+}
+a{
+    display: block;
+    color: antiquewhite;
+    text-decoration: none;
+    background: linear-gradient(25deg,rgb(0, 255, 8),rgb(128, 43, 0));
+    margin: 30px 5px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 30%;
+}
+a:hover{
+    border: 3px solid yellow;
+}
