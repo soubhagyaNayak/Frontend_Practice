@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storages Api</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Storage Api</legend>
+
+        <article>
+            <label>Email</label>
+            <input type="Email" id="storageEmail">
+        </article>
+     
+        <article>
+            <label>Password</label>
+            <input type="Password" id="storagePass">
+        </article>
+       
+    <article>
+        <button onclick="store()">Store</button>
+        <button onclick="read()">Read</button>
+        <button onclick="remove()">Delete</button>
+    </article>
+    <article>
+        <p id="result"></p>
+    </article>
+    </fieldset>
+</body>
+<script>
+   function store(){
+       const obj={
+        email:document.getElementById("storageEmail").value,
+        password:document.getElementById("storagePass").value
+       }
+     window.localStorage.setItem("Login_Details",JSON.stringify(obj));  
+   }
+   function read(){
+  
+    const str=window.localStorage.getItem("Login_Details");
+    obj1=JSON.parse(str);
+    console.log(obj1);
+    document.getElementById("result").innerHTML=obj1.email+""+obj1.password;
+   }
+   
+   function remove(){
+     window.localStorage.removeItem("Login_Details");
+   }
+</script>
+
+</html>

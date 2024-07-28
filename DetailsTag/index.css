@@ -1,0 +1,18 @@
+details{
+    border: 1px solid red;
+    width: 45%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(255, 98, 0);
+}
+
+summary{
+    background-color: yellow;
+    padding: 15px;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+p{
+    color: rgb(236, 235, 240);
+}
